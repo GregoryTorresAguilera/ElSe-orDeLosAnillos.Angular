@@ -1,0 +1,48 @@
+@import "../../../../../styles.scss";
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  h2 {
+    color: $blue;
+    text-transform: uppercase;
+  }
+
+  &__card {
+    border: solid 2px $blue;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: $background;
+    width: 50% img {
+      width: 50%;
+      border-radius: 10px;
+      border: solid 2px $blue;
+    }
+
+    p {
+      padding: 8px;
+      margin: 8px;
+      color: $crawl;
+    }
+
+    li {
+      padding: 8px;
+      margin: 8px;
+      color: $crawl;
+    }
+
+   
+
+    .movie-crawl {
+      padding: 60px;
+      font-size: 16px;
+      margin-left: 30px;
+      margin-right: 30px;
+      font-style: italic;
+      text-align: justify;
+    }
+  }
+}

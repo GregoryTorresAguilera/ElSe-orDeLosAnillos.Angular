@@ -1,0 +1,6 @@
+<h2>Movies</h2>
+<div *ngIf="movies.length" class="movie-container">
+    <div *ngFor="let movie of movies" class="movie-container__card" style="background-image: url({{movie.poster}}); background-size: cover; background-position:center" routerLink="{{movie.id}}">
+        <h6>{{movie.name}}</h6>
+    </div>
+</div>
